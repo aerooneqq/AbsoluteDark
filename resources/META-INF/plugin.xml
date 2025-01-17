@@ -33,6 +33,7 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="Themes" path="/theme/Themes.theme.json"/>
+        <bundledColorScheme id="Absolute Dark" path="/theme/colorSchemes/AbsoluteDark" />
+        <themeProvider id="AbsoluteDark" path="/theme/AbsoluteDark.theme.json"/>
     </extensions>
 </idea-plugin>
