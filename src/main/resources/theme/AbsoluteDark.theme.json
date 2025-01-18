@@ -2,6 +2,8 @@
   "name": "AbsoluteDark",
   "author": "Aero",
   "dark": true,
+  "parentTheme": "Darcula",
+  "editorScheme": "AbsoluteDark",
   "colors": {
     "$titleBackground": "#0c0c0c",
     "$selectionBackground": "#101010",
