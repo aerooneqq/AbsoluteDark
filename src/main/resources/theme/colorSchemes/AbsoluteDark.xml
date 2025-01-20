@@ -17,8 +17,9 @@
     <option name="HTML_TAG_TREE_LEVEL3" value="ffff" />
     <option name="HTML_TAG_TREE_LEVEL4" value="589df6" />
     <option name="HTML_TAG_TREE_LEVEL5" value="ff00ff" />
-    <option name="INDENT_GUIDE" value="6a6a6a" />
+    <option name="INDENT_GUIDE" value="c0c0c" />
     <option name="INFORMATION_HINT" value="4b4d4d" />
+    <option name="JUPYTER.CODE_CELL_BACKGROUND_NEW_UI" value="c0c0c" />
     <option name="LINE_NUMBERS_COLOR" value="414141" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="e0e0e0" />
     <option name="LOOKUP_COLOR" value="2b2d30" />
@@ -30,37 +31,33 @@
     <option name="NOTIFICATION_BACKGROUND" value="1d3857" />
     <option name="QUESTION_HINT" value="376c89" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="0" />
-    <option name="RIGHT_MARGIN_COLOR" value="4d4d4d" />
-    <option name="SELECTED_INDENT_GUIDE" value="505050" />
-    <option name="SELECTED_TEARLINE_COLOR" value="cecece" />
+    <option name="SELECTED_INDENT_GUIDE" value="c0c0c" />
     <option name="SELECTION_BACKGROUND" value="0" />
-    <option name="SELECTION_FOREGROUND" value="" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="2626268c" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="8080808c" />
     <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="8080801a" />
-    <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="2626260" />
-    <option name="ScrollBar.Mac.Transparent.thumbColor" value="8080800" />
-    <option name="ScrollBar.Mac.Transparent.trackColor" value="8080800" />
+    <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="626260" />
+    <option name="ScrollBar.Mac.Transparent.thumbColor" value="80800" />
+    <option name="ScrollBar.Mac.Transparent.trackColor" value="80800" />
     <option name="ScrollBar.Mac.hoverThumbBorderColor" value="2626268c" />
     <option name="ScrollBar.Mac.hoverThumbColor" value="8080808c" />
-    <option name="ScrollBar.Mac.hoverTrackColor" value="8080800" />
+    <option name="ScrollBar.Mac.hoverTrackColor" value="80800" />
     <option name="ScrollBar.Mac.thumbBorderColor" value="26262659" />
     <option name="ScrollBar.Mac.thumbColor" value="80808059" />
-    <option name="ScrollBar.Mac.trackColor" value="8080800" />
+    <option name="ScrollBar.Mac.trackColor" value="80800" />
     <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="38383859" />
     <option name="ScrollBar.Transparent.hoverThumbColor" value="a6a6a659" />
     <option name="ScrollBar.Transparent.hoverTrackColor" value="8080801a" />
     <option name="ScrollBar.Transparent.thumbBorderColor" value="38383847" />
     <option name="ScrollBar.Transparent.thumbColor" value="a6a6a647" />
-    <option name="ScrollBar.Transparent.trackColor" value="8080800" />
+    <option name="ScrollBar.Transparent.trackColor" value="80800" />
     <option name="ScrollBar.background" value="3f4244" />
     <option name="ScrollBar.hoverThumbBorderColor" value="38383859" />
     <option name="ScrollBar.hoverThumbColor" value="a6a6a659" />
-    <option name="ScrollBar.hoverTrackColor" value="8080800" />
+    <option name="ScrollBar.hoverTrackColor" value="80800" />
     <option name="ScrollBar.thumbBorderColor" value="38383847" />
     <option name="ScrollBar.thumbColor" value="a6a6a647" />
-    <option name="ScrollBar.trackColor" value="8080800" />
-    <option name="TEARLINE_COLOR" value="a5a5a5" />
+    <option name="ScrollBar.trackColor" value="80800" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="464c43" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="444342" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="41444a" />
@@ -406,9 +403,14 @@
     <option name="DEFAULT_DOT">
       <value />
     </option>
+    <option name="DEFAULT_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="a0a0a0" />
+      </value>
+    </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="bebebe" />
+        <option name="FOREGROUND" value="a0a0a0" />
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
@@ -421,17 +423,11 @@
         <option name="FOREGROUND" value="b0b0b0" />
       </value>
     </option>
-    <option name="DEFAULT_INSTANCE_METHOD">
-      <value>
-        <option name="FOREGROUND" value="c0c0c0" />
-      </value>
-    </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="676767" />
-        <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="676767" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="434343" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -459,7 +455,8 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="66a6ff" />
+        <option name="FOREGROUND" value="8e8e8e" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -482,11 +479,6 @@
       <value />
     </option>
     <option name="DEFAULT_STATIC_FIELD">
-      <value>
-        <option name="FOREGROUND" value="b2b2b2" />
-      </value>
-    </option>
-    <option name="DEFAULT_STATIC_METHOD">
       <value>
         <option name="FOREGROUND" value="b2b2b2" />
       </value>
@@ -582,19 +574,24 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="HTML_ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="9cdcfe" />
+      </value>
+    </option>
+    <option name="HTML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="c8c8c8" />
+      </value>
+    </option>
     <option name="HTML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="6d9cbe" />
       </value>
     </option>
-    <option name="HTML_TAG">
-      <value>
-        <option name="FOREGROUND" value="808080" />
-      </value>
-    </option>
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="569cd6" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -644,6 +641,12 @@
       <value>
         <option name="FOREGROUND" value="d7bb7d" />
       </value>
+    </option>
+    <option name="JUPYTER.SAUSAGE_BUTTON_APPEARANCE">
+      <value />
+    </option>
+    <option name="JUPYTER_SELECTED_CELL">
+      <value />
     </option>
     <option name="LINE_FULL_COVERAGE">
       <value>
@@ -717,9 +720,7 @@
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="525252" />
-        <option name="EFFECT_COLOR" value="525252" />
-        <option name="EFFECT_TYPE" value="3" />
+        <option name="FOREGROUND" value="69838b" />
       </value>
     </option>
     <option name="REFERENCE_HYPERLINK_COLOR">
@@ -775,33 +776,42 @@
     </option>
     <option name="ReSharper.ASP_NET_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="c5c5c5" />
+        <option name="FOREGROUND" value="9cdcfe" />
+      </value>
+    </option>
+    <option name="ReSharper.ASP_NET_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="d69d85" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_BLOCK_TAG">
       <value>
-        <option name="FOREGROUND" value="808080" />
+        <option name="FOREGROUND" value="a699e6" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_DIRECTIVE_NAME">
       <value>
-        <option name="FOREGROUND" value="d3d3d3" />
+        <option name="FOREGROUND" value="9cdcfe" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_RAZOR_CODE_BLOCK">
       <value />
     </option>
+    <option name="ReSharper.ASP_NET_RAZOR_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="a699e6" />
+      </value>
+    </option>
     <option name="ReSharper.ASP_NET_RAZOR_TAG_HELPER_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="FOREGROUND" value="8080" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_RAZOR_TAG_HELPER_ELEMENT">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="EFFECT_COLOR" value="ffffff" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="FOREGROUND" value="8080" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_ROUTE_TEMPLATE_PARAMETER">
@@ -818,11 +828,6 @@
     <option name="ReSharper.ASP_NET_RUNAT_ATTRIBUTE">
       <value>
         <option name="EFFECT_COLOR" value="deb887" />
-      </value>
-    </option>
-    <option name="ReSharper.ASP_NET_RUN_AT_ATTRIBUTE">
-      <value>
-        <option name="FOREGROUND" value="d3d3d3" />
       </value>
     </option>
     <option name="ReSharper.CONTROL_FLOW_KEYWORD">
@@ -1102,16 +1107,6 @@
     <option name="XML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="92caf4" />
-      </value>
-    </option>
-    <option name="XML_PROLOGUE">
-      <value>
-        <option name="FOREGROUND" value="808080" />
-      </value>
-    </option>
-    <option name="XML_TAG">
-      <value>
-        <option name="FOREGROUND" value="808080" />
       </value>
     </option>
     <option name="XML_TAG_NAME">
