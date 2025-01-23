@@ -6,10 +6,10 @@
   "editorScheme": "AbsoluteDark",
   "colors": {
     "$titleBackground": "#0c0c0c",
-    "$selectionBackground": "#101010",
-    "$selectionBackgroundMuted": "#0c0c0c",
+    "$selectionBackground": "#333333",
+    "$selectionBackgroundMuted": "#252525",
     "$selectionUnderline": "#4c679e",
-    "$selectionBackgroundInactive": "#101010",
+    "$selectionBackgroundInactive": "#333333",
     "$selectionUnderlineInactive": "#606469",
     "$selectionForeground": "#EEEEEE",
     "$selectionForegroundInactive": "#EEEEEE",
