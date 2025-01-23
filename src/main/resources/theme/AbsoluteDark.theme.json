@@ -8,7 +8,7 @@
     "$titleBackground": "#0c0c0c",
     "$selectionBackground": "#333333",
     "$selectionBackgroundMuted": "#252525",
-    "$selectionUnderline": "#4c679e",
+    "$selectionUnderline": "#a5a5a5",
     "$selectionBackgroundInactive": "#333333",
     "$selectionUnderlineInactive": "#606469",
     "$selectionForeground": "#EEEEEE",
