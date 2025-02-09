@@ -642,11 +642,6 @@
         <option name="BACKGROUND" value="383838" />
       </value>
     </option>
-    <option name="JSON.PROPERTY_KEY">
-      <value>
-        <option name="FOREGROUND" value="d7bb7d" />
-      </value>
-    </option>
     <option name="JUPYTER.SAUSAGE_BUTTON_APPEARANCE">
       <value />
     </option>
