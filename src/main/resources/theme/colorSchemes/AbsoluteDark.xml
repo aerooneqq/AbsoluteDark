@@ -46,7 +46,6 @@
     <option name="READONLY_FRAGMENT_BACKGROUND" value="0" />
     <option name="SELECTED_INDENT_GUIDE" value="c0c0c" />
     <option name="SELECTION_BACKGROUND" value="0" />
-    <option name="SELECTION_FOREGROUND" value="" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="2626268c" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="8080808c" />
     <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="8080801a" />
@@ -678,7 +677,7 @@
     </option>
     <option name="LIVE_TEMPLATE_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="ff0000" />
+        <option name="EFFECT_COLOR" value="ffffff" />
       </value>
     </option>
     <option name="LOG_DEBUG_OUTPUT">
@@ -1048,7 +1047,7 @@
     </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="828eba" />
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
     <option name="TEXT">
