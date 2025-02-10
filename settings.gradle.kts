@@ -1,1 +1,1 @@
-rootProject.name = "AeroThemes"
+rootProject.name = "AbsoluteDark"

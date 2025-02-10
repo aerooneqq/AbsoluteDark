@@ -1,12 +1,15 @@
 <idea-plugin>
-    <id>AeroThemes</id>
+    <id>AbsoluteDark</id>
     <version>1.0.0</version>
-    <name>AeroThemes</name>
+    <name>AbsoluteDark</name>
     <category>UI</category>
     <vendor email="aerooneq@yandex.ru">Aero</vendor>
 
     <idea-version since-build="241" until-build="243.*"/>
-    <description>>Just themes for fun. Now plugin contains the following themes: AbsoluteDark</description>
+    <description>><![CDATA[
+    Dark "AbsoluteDark" theme for Rider and some other IDEs
+    ]]></description>
+
     <change-notes>Initial version</change-notes>
     <depends>com.intellij.modules.platform</depends>
 

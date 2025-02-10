@@ -3,7 +3,7 @@ plugins {
   id("me.filippov.gradle.jvm.wrapper") version "0.14.0"
 }
 
-version = "1.0.0-EAP1"
+version = "1.0.0"
 
 repositories {
   mavenCentral()
@@ -11,7 +11,7 @@ repositories {
 
 intellij {
   version.set("2024.3.1")
-  type.set("IC") // Target IDE Platform
+  type.set("IC")
 }
 
 tasks {
