@@ -3,14 +3,14 @@ plugins {
   id("me.filippov.gradle.jvm.wrapper") version "0.14.0"
 }
 
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
   mavenCentral()
 }
 
 intellij {
-  version.set("2024.3.1")
+  version.set("2025.1")
   type.set("IC")
 }
 
@@ -22,7 +22,7 @@ tasks {
 
   patchPluginXml {
     sinceBuild.set("241")
-    untilBuild.set("243.*")
+    untilBuild.set("251.*")
   }
 
   buildSearchableOptions {
