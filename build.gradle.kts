@@ -10,7 +10,7 @@ repositories {
 }
 
 intellij {
-  version.set("2025.2")
+  version.set("252-EAP-SNAPSHOT")
   type.set("IC")
 }
 
