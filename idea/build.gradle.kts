@@ -10,7 +10,7 @@ repositories {
 }
 
 intellij {
-  version.set("2025.2")
+  version.set("2025.3")
   type.set("IC")
 }
 
@@ -21,8 +21,8 @@ tasks {
   }
 
   patchPluginXml {
-    sinceBuild.set("252")
-    untilBuild.set("252.*")
+    sinceBuild.set("253")
+    untilBuild.set("253.*")
   }
 
   buildSearchableOptions {

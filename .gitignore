@@ -2,3 +2,4 @@ out
 *.jar
 .gradle
 build
+.DS_Store
