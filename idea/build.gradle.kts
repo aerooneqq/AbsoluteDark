@@ -3,7 +3,7 @@ plugins {
   id("me.filippov.gradle.jvm.wrapper") version "0.14.0"
 }
 
-version = "1.0.2"
+version = "1.0.3"
 
 repositories {
   mavenCentral()
